@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<configuration>
+	<feature automatic="selected" name="ManagementUnıt"/>
+	<feature automatic="selected" manual="selected" name="UserManagement"/>
+	<feature manual="selected" name="Student"/>
+	<feature manual="selected" name="Teacher"/>
+	<feature manual="selected" name="Staff"/>
+	<feature automatic="selected" name="CourseManagement"/>
+	<feature manual="selected" name="Courses"/>
+	<feature automatic="selected" manual="selected" name="CourseContent"/>
+	<feature manual="selected" name="Files"/>
+	<feature manual="selected" name="Data"/>
+	<feature automatic="selected" name="TrraditionalLearning"/>
+	<feature automatic="selected" name="AssignmentProject"/>
+	<feature manual="selected" name="ExamQUiz"/>
+	<feature manual="selected" name="ProjectBoard"/>
+	<feature manual="selected" name="DiscussionBoard"/>
+	<feature manual="selected" name="OffieHours"/>
+	<feature automatic="selected" manual="selected" name="SimulationBasedLearning"/>
+	<feature manual="selected" name="OnlineTraining"/>
+	<feature manual="selected" name="Gamification"/>
+	<feature manual="selected" name="MİcroLearning"/>
+	<feature manual="selected" name="Meeting"/>
+	<feature manual="selected" name="COmmunity"/>
+	<feature manual="selected" name="HealtFitness"/>
+	<feature automatic="selected" name="StudyProgramme"/>
+	<feature automatic="selected" manual="selected" name="Calendar"/>
+	<feature manual="selected" name="TrackingProgress"/>
+</configuration>

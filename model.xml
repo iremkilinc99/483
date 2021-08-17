@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<featureModel>
+	<properties>
+		<graphics key="legendposition" value="1073,26"/>
+		<graphics key="legendautolayout" value="false"/>
+		<graphics key="showshortnames" value="false"/>
+		<graphics key="layout" value="horizontal"/>
+		<graphics key="showcollapsedconstraints" value="true"/>
+		<graphics key="legendhidden" value="false"/>
+		<graphics key="layoutalgorithm" value="1"/>
+	</properties>
+	<struct>
+		<and mandatory="true" name="ManagementUnıt">
+			<graphics key="collapsed" value="false"/>
+			<and name="UserManagement">
+				<feature name="Student"/>
+				<feature name="Teacher"/>
+				<feature name="Staff"/>
+			</and>
+			<and name="CourseManagement">
+				<feature name="Courses"/>
+				<and name="CourseContent">
+					<graphics key="collapsed" value="false"/>
+					<feature name="Files"/>
+					<feature name="Data"/>
+					<and name="TrraditionalLearning">
+						<graphics key="collapsed" value="false"/>
+						<feature name="AssignmentProject"/>
+						<feature name="ExamQUiz"/>
+					</and>
+					<feature name="ProjectBoard"/>
+					<feature name="DiscussionBoard"/>
+					<feature name="OffieHours"/>
+					<and name="SimulationBasedLearning">
+						<graphics key="collapsed" value="false"/>
+						<feature name="OnlineTraining"/>
+						<feature name="Gamification"/>
+					</and>
+					<feature name="MİcroLearning"/>
+					<feature name="Meeting"/>
+					<feature name="COmmunity"/>
+					<feature name="HealtFitness"/>
+				</and>
+			</and>
+			<and name="StudyProgramme">
+				<feature name="Calendar"/>
+				<feature name="TrackingProgress"/>
+			</and>
+		</and>
+	</struct>
+	<constraints>
+		<rule>
+			<eq>
+				<var>Data</var>
+				<var>AssignmentProject</var>
+			</eq>
+		</rule>
+		<rule>
+			<eq>
+				<var>Calendar</var>
+				<var>StudyProgramme</var>
+			</eq>
+		</rule>
+	</constraints>
+</featureModel>
